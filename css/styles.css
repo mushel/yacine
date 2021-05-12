@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+h1, h2, h3, h4 {
+    /* font-family: 'Noto Serif', serif; */
+    font-family: 'Cormorant Garamond', serif;
+}
+.text-shadow {
+    text-shadow: 2px 2px 2px #000;
+}
