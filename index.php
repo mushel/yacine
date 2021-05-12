@@ -20,6 +20,7 @@
       <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
@@ -28,25 +29,41 @@
     </head>
 
     <body>
+        <nav class="teal lighten-2" role="navigation">
+            <div class="nav-wrapper container">
+            <a id="logo-container" href="#" class="brand-logo">Logo</a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#">Navbar Link</a></li>
+            </ul>
+
+            <ul id="nav-mobile" class="sidenav">
+                <li><a href="#">Navbar Link</a></li>
+            </ul>
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            </div>
+        </nav>
         <div id="index-banner" class="parallax-container">
             <div class="section no-pad-bot">
-            <div class="container">
-                <br><br>
-                <h1 class="header center teal-text text-lighten-2 text-shadow">Adam Yacine Sebti</h1>
-                <div class="row center">
-                <h4 class="purple-text text-lighten-2 text-shadow">Personal Injury / Criminal Defense / Civil Rights</h4>
-                <h5 class="header col s12 teal-text text-lighten-2 text-shadow">Here for Legal Advice and Problem Solving</h5>
-                </div>
-                <div class="row center">
-                <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Call for Free Consultation</a>
-                </div>
-                <br><br>
+                <div class="container banner">
+                    
+                    <h1 class="header center green-text text-darken-4 text-shadow">Adam Yacine Sebti</h1>
+                    <hr>
+                    <div class="row center">
+                    <h4 class="purple-text text-darken-2 text-shadow">Personal Injury / Criminal Defense / Civil Rights</h4>
+                    <h5 class="header col s12 teal-text text-shadow">Here for Legal Advice and Problem Solving</h5>
+                    </div>
+                    <div class="row center">
+                    <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Call for Free Consultation</a>
+                    </div>
+                    <br>
 
+                </div>
             </div>
+            <div class="parallax">
+                <img src="img/house2.jpg" alt="Unsplashed background img 1" style="transform: translate3d(-50%, 219.225px, 0px); opacity: 1;" class="responsive-img">
             </div>
-            <div class="parallax"><img src="img/house2.jpg" alt="Unsplashed background img 1" style="transform: translate3d(-50%, 219.225px, 0px); opacity: 1;" class="responsive-img"></div>
         </div>
-    </div>
+    
     </div>
         <div class="container"> 
             <div class="row">
@@ -109,7 +126,9 @@
         
 
       <!--JavaScript at end of body for optimized loading-->
-      <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="js/materialize.js"></script>
+        <script src="js/init.js"></script>
     </body>
   </html>
         

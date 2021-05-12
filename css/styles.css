@@ -1,9 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap');
+html, body {
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background: #efefef url('/img/bg.png') no-repeat;
+    background-size: cover;
+}
 h1, h2, h3, h4 {
     /* font-family: 'Noto Serif', serif; */
     font-family: 'Cormorant Garamond', serif;
 }
 .text-shadow {
-    text-shadow: 2px 2px 2px #000;
+    text-shadow: 2px 1px 4px #fff;
 }
+
+.banner {
+    background: rgba(255,255,255,0.7);
+    margin: 4rem auto 8rem auto;
+    border-radius: 4px;
+}
+.banner hr {
+    height: 3px;
+    border-radius: 50%;
+    background: #fff;
+}
+.banner h1.header {
+    padding-top: 1rem;
+}
+.parallax-container {
+    /* height: 430px; */
+}
+
+/* 
+Daffy - Felt Like This [EPR004]
+Main Phase - This 1 [TIN006RP]
+Denham Audio & Coco Bryce - Single Minded People [CHEEKY001]
+*/
